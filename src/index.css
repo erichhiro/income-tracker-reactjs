@@ -82,6 +82,7 @@ h1 {
 	justify-content: center;
 	transition: 0.4s;
 	border-radius: 8px;
+  box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 45%);
 }
 .form-inner input {
 	font-size: 18px;
@@ -92,10 +93,12 @@ h1 {
 .form-inner input[type="text"] {
 	border-radius: 8px 0px 0px 8px;
 	flex: 1 1 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
 }
 .form-inner input[type="date"] {
 	border-radius: 0px;
 	min-width: 200px;
+  border-left: 1px solid rgba(0, 0, 0, 0.274);
 }
 .form-inner input[type="submit"] {
 	border-radius: 0px 8px 8px 0px;
